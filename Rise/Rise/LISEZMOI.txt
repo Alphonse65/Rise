@@ -1,0 +1,22 @@
+RISE - client autonome Fabric (Minecraft 1.21.4) pour serveurs anarchy
+Aucun Meteor requis. Menu : Shift droit (modifiable dans Options > Controles).
+
+COMBAT     KillAura, Crystal Aura, Surround, Auto Totem, Auto Armor, Auto Eat, Panic Guard
+MOUVEMENT  Flight, Speed, Step, Spider, No Fall, Sprint auto, Auto Walk
+VISUEL     ESP Stockage (coffres/ender/shulkers/spawners/anchors), Xray (minerais), Entity ESP + tracers,
+           Fullbright, HUD Infos
+MONDE      Nuker, Scaffold, Auto Tool, Chest Stealer, Auto Fish
+BOTS       Farm Bot, Diamond Miner*, Builder Bot*, Market Bot, Auto Sell    (* = Baritone requis)
+UTILE      Anti AFK, Alerte joueurs
+
+PORTEE DES CHUNKS : l'ESP va jusqu'a 32 chunks, mais le client ne connait que les chunks envoyes par le serveur
+(distance d'affichage du serveur ET votre Options > Video > Distance d'affichage). Montez cette distance en jeu.
+
+OBTENIR LE .JAR SANS RIEN INSTALLER (GitHub Actions, gratuit)
+  1. github.com : creer un compte puis un nouveau depot.
+  2. Glisser TOUT le contenu du projet (dossier .github inclus) dans le depot.
+  3. Onglet Actions > "build" > coche verte > telecharger l'artefact "rise".
+  4. rise-1.0.0.jar -> .minecraft/mods, avec Fabric Loader 1.21.4 + Fabric API (+ Baritone si besoin).
+OU en local : JDK 21 + Gradle, puis  gradle build  -> build/libs/rise-1.0.0.jar
+
+A utiliser uniquement sur serveurs anarchy.
